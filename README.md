@@ -11,6 +11,8 @@ After that is complete, console out the entire amount paid out.
 Numbers should be rounded to the nearest whole number!
 
 ###Rules
+Optical - covers 0%
+
 Specialist - covers 10%
 
 Emergency - covers 100%
