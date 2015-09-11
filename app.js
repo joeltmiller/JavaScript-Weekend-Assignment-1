@@ -32,13 +32,6 @@ var initialList = [claim1, claim2, claim3, claim4, claim5]
 
 var totalPayedOut = 0;
 
-//console out "$100 paid for Steve Wright"
-
-//Optical - covers 0%
-//Specialist - covers 10%
-//Emergency - covers 100%
-//Primary Care - covers 50%	
-
 function claim(name, type, cost){
 	this.patientName = name;
 	this.visitType = type;
