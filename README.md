@@ -12,7 +12,9 @@ Numbers should be rounded to the nearest whole number!
 
 ###Rules
 Specialist - covers 10%
+
 Emergency - covers 100%
+
 Primary Care - covers 50%	
 
 ##Hard Mode
