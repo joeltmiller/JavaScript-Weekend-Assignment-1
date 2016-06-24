@@ -1,38 +1,18 @@
-var claim1 = {
-	patientName: "John Doe",
-	visitType: "Specialist",
-	visitCost: 1100
-}
+var claim1 = new Claim("John Doe", "Specialist", 1100);
 
-var claim2 = {
-	patientName: "Jane Doe",
-	visitType: "Optical",
-	visitCost: 100
-}
+var claim2 = new Claim("Jane Doe", "Optical", 100);
 
-var claim3 = {
-	patientName: "Joe Johnson",
-	visitType: "Emergency",
-	visitCost: 31000
-}
+var claim3 = new Claim("Joe Johnson", "Emergency", 31000);
 
-var claim4 = {
-	patientName: "Sharon Smith",
-	visitType: "Emergency",
-	visitCost: 1300
-}
+var claim4 = new Claim("Sharon Smith", "Emergency", 1300);
 
-var claim5 = {
-	patientName: "Steve Wright",
-	visitType: "Primary Care",
-	visitCost: 770
-}
+var claim5 = new Claim("Steve Wright", "Primary Care", 770);
 
 var initialList = [claim1, claim2, claim3, claim4, claim5]
 
 var totalPayedOut = 0;
 
-function claim(name, type, cost){
+function Claim(name, type, cost){
 	this.patientName = name;
 	this.visitType = type;
 	this.visitCost = cost;
